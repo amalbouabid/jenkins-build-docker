@@ -1,3 +1,6 @@
+node{
+   def app
+
 stage('Clone') {
     checkout scm
 }
@@ -15,5 +18,4 @@ stage('Test image') {
 }
 
 }
-
-Jenkinsfile (END)
+}
